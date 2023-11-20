@@ -32,6 +32,9 @@
 #'
 #'@param GLH "TRUE" means conduct GLH, "FLASE" means not
 #'
+#'@useDynLib lrm_Cpp
+#'@importFrom Rcpp sourceCpp
+#'
 #'@return result of one specific hypothesis testing
 #'
 #'@examples
